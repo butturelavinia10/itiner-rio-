@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visão em Foco - Acessibilidade Visual</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones para os botões -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Barra de Acessibilidade no Topo -->
+    <header class="top-bar">
+        <div class="container accessibility-controls">
+            <span>Ferramentas de Acessibilidade:</span>
+            <button id="toggle-theme" aria-label="Alternar modo escuro"><i class="fa-solid fa-moon"></i> Modo Escuro</button>
+            <div class="voice-controls">
+                <button id="read-male" aria-label="Ouvir com voz masculina"><i class="fa-solid fa-mars"></i> Voz Masculina</button>
+                <button id="read-female" aria-label="Ouvir com voz feminina"><i class="fa-solid fa-venus"></i> Voz Feminina</button>
+                <button id="stop-voice" aria-label="Parar leitura" disabled><i class="fa-solid fa-stop"></i> Parar</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal do Site -->
+    <main class="container main-content" id="conteudo-principal">
+        
+        <!-- Seção de Introdução -->
+        <section class="hero">
+            <h1>Acessibilidade Visual: Enxergando Além da Visão</h1>
+            <p class="subtitle">Compreender as deficiências visuais é o primeiro passo para construir um mundo digital verdadeiramente inclusivo e acessível para todos.</p>
+            <!-- Imagem corrigida -->
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=80" alt="Pessoas em uma reunião colaborativa inclusiva, representando acessibilidade" class="hero-img">
+        </section>
+
+        <!-- O que Acontece -->
+        <section class="card">
+            <h2><i class="fa-solid fa-circle-info"></i> O que é Deficiência Visual?</h2>
+            <p>A deficiência visual engloba desde a baixa visão (visão subnormal) até a cegueira total. No contexto digital e físico, barreiras invisíveis impedem milhões de pessoas de participarem plenamente da sociedade. A acessibilidade visual busca derrubar essas barreiras através de tecnologias assistivas, design inclusivo e empatia.</p>
+        </section>
+
+        <!-- Tipos de Deficiência Visual -->
+        <section class="types-section">
+            <h2><i class="fa-solid fa-eye"></i> Principais Tipos de Deficiência Visual</h2>
+            <div class="grid">
+                <div class="type-card">
+                    <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=600&q=80" alt="Ilustração abstrata representando baixa visão">
+                    <h3>Baixa Visão (Visão Subnormal)</h3>
+                    <p>Condição em que a acuidade visual está comprometida mesmo após correção com óculos ou lentes. Quem possui baixa visão pode se beneficiar imensamente de contrastes fortes e ampliação de tela.</p>
+                </div>
+                <div class="type-card">
+                    <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=600&q=80" alt="Bengala branca apoiada, símbolo da deficiência visual">
+                    <h3>Cegueira Total</h3>
+                    <p>Ausência completa da percepção visual (incluindo a ausência de percepção de luz). A navegação é feita primariamente por meio de leitores de tela, o Braille e tato.</p>
+                </div>
+                <div class="type-card">
+                    <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80" alt="Pessoa utilizando tecnologia">
+                    <h3>Daltonismo (Cegueira para Cores)</h3>
+                    <p>Dificuldade em distinguir certas cores, como vermelho e verde. Embora não seja cegueira total, exige que desenvolvedores não usem cores como única forma de passar informação.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Visão em Foco. Todos os direitos reservados à inclusão digital.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
